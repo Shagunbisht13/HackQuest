@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #4ee1e3;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #b4f5f6;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 5px 15px;
+  background-color: #ffffff;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.text-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.illustration {
+  max-width: 40%;
+}
+
+.illustration img {
+  width: 100%;
+}
+
+.about-section {
+  padding: 80px 20px;
+  position: relative;
+}
+
+.about-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.about-section p {
+  max-width: 600px;
+  margin: 0 auto 10px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.highlight {
+  font-weight: bold;
+  color: black;
+}
+
+.cloud {
+  position: absolute;
+  width: 60px;
+}
+
+.cloud1 { top: 20px; left: 10%; }
+.cloud2 { top: 40px; right: 15%; }
+.cloud3 { top: 150px; left: 5%; }
+.cloud4 { bottom: 30px; right: 10%; }
+.cloud5 { bottom: 60px; left: 40%; }
+
+.icon {
+  margin-bottom: 10px;
+}
+
+.icon img {
+  width: 30px;
+}
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 250px;
+  text-align: center;
+  margin: 20px;
+}
+
+.feature-icon img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border-left: 3px solid black;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.feature p {
+  font-size: 15px;
+  color: #000;
+  text-align: left;
+  padding-left: 13px;
+}
